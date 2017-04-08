@@ -1,0 +1,25 @@
+{
+  "name": "Sketch Stories",
+  "description": "Share stuff",
+  "author": "Sketch Stories",
+  "homepage": "",
+  "version": 42,
+  "identifier": "com.sketchstories.client",
+  "updateURL": "",
+  "comaptibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Share Selected Slice",
+      "identifier": "shareSlice",
+      "shortcut": "ctrl shift s",
+      "script": "main.js",
+      "handler": "shareSelectedSlice"
+    }
+  ],
+  "menu": {
+    "items": [
+      "shareSlice"
+    ]
+  }
+}
